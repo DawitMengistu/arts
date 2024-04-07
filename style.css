@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "lyn";
+    src: url("assets/NewTitle-Variable.woff2") format("opentype");
+
+}
+
+:root {
+    --frame: #A98B7E;
+    --frame-border: #613A33;
+    --inner-frame: #CCA39F;
+    --bg: #887f7e;
+    --img-size: 340px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.con {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sr-img-con {
+    width: var(--img-size);
+    height: var(--img-size);
+    position: relative;
+}
+
+.img-div-con {
+    top: -30%;
+    position: absolute;
+    width: var(--img-size);
+    height: var(--img-size);
+    opacity: 1;
+
+
+}
+
+.img-frame {
+    width: 100%;
+    height: 100%;
+    background-color: var(--frame);
+    border: solid 5px var(--frame-border);
+}
+
+.img-inner-frame {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: var(--frame-border);
+    opacity: 1;
+}
+
+.img-inner-frame-second {
+    position: absolute;
+    top: 11%;
+    right: 11%;
+    width: 78%;
+    height: 78%;
+    background-color: var(--inner-frame);
+    ;
+    opacity: 1;
+}
+
+.img-part-con {
+    background-color: green;
+    position: absolute;
+    top: 11%;
+    right: 11%;
+    width: 78%;
+    height: 78%;
+}
+
+.bg-img-part {
+    width: 100%;
+    height: 100%;
+}
+
+.img-sectoin-right {
+    width: 76%;
+    right: 0;
+    position: absolute;
+}
+
+.img-section-circle {
+    top: 12%;
+    width: 40%;
+    right: 0;
+    position: absolute;
+}
+
+.img-sectoin-right-dark {
+    width: 60.5%;
+    top: 23%;
+    right: 0;
+    position: absolute;
+}
+
+.img-sectoin-big {
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.tittle-con {
+    text-align: center;
+}
+
+.tittle-text {
+    margin-top: 10%;
+    font-family: 'lyn';
+    font-size: 3rem;
+}
+
+.signature-con {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.signature-text a {
+    font-family: 'lyn';
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.disc-text {
+    margin-top: 3%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.signature-text a:hover {
+    cursor: pointer;
+    color: red;
+}
