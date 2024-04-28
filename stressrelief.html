@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+    <div class="preloader">
+        <img src="/assets/loader.svg" alt="" class="preloader-svg">
+    </div>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stress Relief | The Office: Season 5, Episode 14.</title>
@@ -15,6 +20,10 @@
 </head>
 
 <body>
+    <div class="preloader">
+        <img src="https://dawitmengistu.github.io/arts/assets/loader.svg" alt="" class="preloader-svg">
+    </div>
+
     <div class="con">
         <div class="sr-img-con">
             <div class="img-div-con">
@@ -43,6 +52,13 @@
 
     </div>
     <div class="signature-con signature-text"> <a href="https://t.me/dawitmengistu">JF</a></div>
+
+    <script>
+        const loader = document.querySelector(".preloader");
+        window.addEventListener("load", () => {
+            loader.classList.add("hide");
+        })
+    </script>
 </body>
 
 </html>
